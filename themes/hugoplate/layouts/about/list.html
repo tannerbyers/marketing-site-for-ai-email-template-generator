@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <section class="section-sm">
+    <div class="container p-10">
+      <div class="justify-center col">
+        <div class="flex text-center md:col-10 lg:col-10 w-100">
+          {{ partial "image" (dict "Src" .Params.image "Context" .Page "Alt" .Title "Class" "mx-auto h-100 rotate-90" ) }}
+          <div class="w-100">
+            <h2 class="mb-6 h3">{{ .Title }}</h2>
+            <div class="content">{{ .Content }}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}
