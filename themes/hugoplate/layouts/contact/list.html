@@ -5,12 +5,10 @@
   <section class="section-sm">
     <div class="container">
       <div class="row">
-        <div class="md:col-10 lg:col-6 mx-auto">
+        <div class="mx-auto md:col-10 lg:col-6">
           <form action="{{ site.Params.contact_form_action }}" method="POST">
             <div class="mb-6">
-              <label for="name" class="form-label">
-                Full Name <span class="text-red-500">*</span>
-              </label>
+              <label for="name" class="form-label"> Name </label>
               <input
                 id="name"
                 name="name"
@@ -20,9 +18,10 @@
             </div>
             <div class="mb-6">
               <label for="email" class="form-label">
-                Working Mail <span class="text-red-500">*</span>
+                E-Mail <span class="text-red-500">*</span>
               </label>
               <input
+                required="true"
                 id="email"
                 name="email"
                 class="form-input"
@@ -30,9 +29,7 @@
                 type="email" />
             </div>
             <div class="mb-6">
-              <label for="message" class="form-label">
-                Anything else? <span class="text-red-500">*</span>
-              </label>
+              <label for="message" class="form-label"> Anything else? </label>
               <textarea
                 id="message"
                 name="message"
@@ -68,7 +65,7 @@
         method="post"
         id="mc-embedded-subscribe-form"
         novalidate="novalidate">
-        <div class="input-group w-75 mx-auto mb-3">
+        <div class="mx-auto mb-3 input-group w-75">
           <input
             type="email"
             name="EMAIL"
@@ -96,11 +93,11 @@
       </form>
       <div id="mce-responses" class="clear">
         <div
-          class="response text-white"
+          class="text-white response"
           id="mce-error-response"
           style="display:none"></div>
         <div
-          class="response text-white"
+          class="text-white response"
           id="mce-success-response"
           style="display:none"></div>
       </div>

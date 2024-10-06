@@ -3,8 +3,8 @@
   {{ with .Params.banner }}
     <section class="section pt-14">
       <div class="container">
-        <div class="row justify-center">
-          <div class="lg:col-7 md:col-9 mb-8 text-center">
+        <div class="justify-center row">
+          <div class="mb-8 text-center lg:col-7 md:col-9">
             <h1 class="mb-4 text-h3 lg:text-h1">
               {{ .title | markdownify }}
             </h1>
@@ -20,13 +20,13 @@
                     target="_blank" rel="noopener"
                   {{ end }}>
                   {{ .label }}
-                  <i class="fa fa-arrow-right pl-2"></i>
+                  <i class="pl-2 fa fa-arrow-right"></i>
                 </a>
               {{ end }}
             {{ end }}
           </div>
           <div class="col-12">
-            {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[800px]" "DisplayXL" "800x" ) }}
+            {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[320px]" "DisplayXL" "800x" ) }}
           </div>
         </div>
       </div>
@@ -38,7 +38,7 @@
   {{ range $i, $e:= .Params.features }}
     <section class="section-sm {{ if (modBool $i 2) }}bg-gradient{{ end }}">
       <div class="container">
-        <div class="row items-center justify-between">
+        <div class="items-center justify-between row">
           <div
             class="mb:md-0 {{ if not (modBool $i 2) }}
               md:order-2
@@ -57,7 +57,7 @@
             </p>
             <ul>
               {{ range .bulletpoints }}
-                <li class="relative mb-4 pl-6">
+                <li class="relative pl-6 mb-4">
                   <i class="fa fa-check absolute left-0 top-1.5"></i>
                   {{ . | markdownify }}
                 </li>
@@ -65,9 +65,9 @@
             </ul>
             {{ with .button }}
               {{ if .enable }}
-                <a class="btn btn-primary mt-6" href="{{ .link | absURL }}">
+                <a class="mt-6 btn btn-primary" href="{{ .link | absURL }}">
                   {{ .label }}
-                  <i class="fa fa-arrow-right pl-2"></i>
+                  <i class="pl-2 fa fa-arrow-right"></i>
                 </a>
               {{ end }}
             {{ end }}
@@ -84,7 +84,7 @@
       <section class="section">
         <div class="container">
           <div class="row">
-            <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
+            <div class="mx-auto mb-12 text-center md:col-10 lg:col-8 xl:col-6">
               <h2 class="mb-4">
                 {{ .Title | markdownify }}
               </h2>
@@ -98,7 +98,7 @@
                   {{ range .Params.testimonials }}
                     <div class="swiper-slide">
                       <div
-                        class="bg-theme-light dark:bg-darkmode-theme-light rounded-lg px-7 py-10">
+                        class="py-10 rounded-lg bg-theme-light dark:bg-darkmode-theme-light px-7">
                         <div class="text-dark dark:text-white">
                           <svg
                             width="33"
@@ -114,12 +114,12 @@
                         <blockquote class="mt-8">
                           {{ .content | markdownify }}
                         </blockquote>
-                        <div class="mt-11 flex items-center">
+                        <div class="flex items-center mt-11">
                           <div class="text-dark dark:text-white">
                             {{ partial "image" (dict "Src" .avatar "Size" "50x50" "Class" "rounded-full" "Alt" .name) }}
                           </div>
                           <div class="ml-4">
-                            <h3 class="h5 font-primary font-semibold">
+                            <h3 class="font-semibold h5 font-primary">
                               {{ .name }}
                             </h3>
                             <p class="text-dark dark:text-white">
@@ -132,7 +132,7 @@
                   {{ end }}
                 </div>
                 <div
-                  class="testimonial-slider-pagination mt-9 flex items-center justify-center text-center"></div>
+                  class="flex items-center justify-center text-center testimonial-slider-pagination mt-9"></div>
               </div>
             </div>
           </div>
