@@ -10,6 +10,6 @@ I'm the solo developer for Bassoon AI.
 
 I’ve built this micro-saas to solve one challenge:
 
-Make Creating responsive, high-quality email templates effortless.
+Creating high-quality email templates is hard.
 
-Bassoon AI is designed to save you time by simplifying the email template creation process by using an AI agent to generate and update email html and css templates. These can be used in popular email marketing platforms.
+Bassoon AI is simplifies the email template creation process by using an AI agent to generate and update email html and css templates based on email design best practices. These can be used in popular email marketing platforms like Mailchimp, Sendgrid, and others.
