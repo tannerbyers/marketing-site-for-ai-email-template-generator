@@ -1,7 +1,7 @@
-name = "Hugoplate"
+name = "Basson AI"
 license = "MIT"
-licenselink = "https://github.com/zeon-studio/hugoplate/blob/main/LICENSE"
-description = "Hugoplate is a free starter template built with Hugo, and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time."
+licenselink = "https://github.com/tannerbyers/marketing-site-for-ai-email-template-generator/blog/main/LICENSE"
+description = "The marketing site for AI Email Template Generator Micro-SaaS. We'll use this for wait list and blogging once MVP is deployed."
 homepage = "https://github.com/zeon-studio/hugoplate"
 demosite = "https://zeon.studio/preview?project=hugoplate"
 min_version = "0.134.3"
@@ -29,8 +29,8 @@ features = [
 ]
 
 [author]
-name = "Zeon Studio"
-homepage = "https://zeon.studio"
+name = "Tanner Byers"
+homepage = "https://tannerbyers.com"
 
 [original]
 author = "Zeon Studio"
