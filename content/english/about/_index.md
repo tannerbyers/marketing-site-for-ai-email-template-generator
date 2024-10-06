@@ -1,9 +1,15 @@
 ---
-title: "Hey, I am John Doe!"
+title: "Hey, I'm Tanner"
 meta_title: "About"
-description: "this is meta description"
-image: "/images/avatar.png"
+description: "this is about section for bassoon ai"
+image: "/images/tanner_at_aws.jpg"
 draft: false
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+I'm the solo developer for Bassoon AI. 
+
+I’ve built this micro-saas to solve one challenge:
+
+Make Creating responsive, high-quality email templates effortless.
+
+Bassoon AI is designed to save you time by simplifying the email template creation process by using an AI agent to generate and update email html and css templates. These can be used in popular email marketing platforms.

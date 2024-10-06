@@ -1,8 +1,8 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Hugo Project"
-  content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time."
+  title: "The AI-Powered Solution for Effortless Email Template Creation"
+  content: "Join the waitlist for our AI-driven tool that generates responsive email templates for platforms like Mailchimp, SendGrid, and ActiveCampaign!"
   image: "/images/banner.png"
   button:
     enable: true
@@ -11,41 +11,44 @@ banner:
 
 # Features
 features:
-  - title: "What's Included in Hugoplate"
+  - title: "What You Get with Bassoon AI"
     image: "/images/service-1.png"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
+    content: "Bassoon AI takes the hassle out of email template creation by leveraging AI to generate responsive, high-quality email designs, optimized for all major platforms. Here’s what’s included:"
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Hugo and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "AI-powered email template generation"
+      - "Supports Mailchimp, SendGrid, ActiveCampaign, and more"
+      - "Follows email HTML/CSS best practices for responsiveness"
+      - "Real-time live preview of AI-generated templates"
+      - "Revert changes instantly with undo functionality"
     button:
       enable: false
-      label: "Get Started Now"
-      link: "#"
+      label: "Checkout more features"
+      link: "/features"
 
-  - title: "Discover the Key Features Of Hugo"
-    image: "/images/service-2.png"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+  - title: "Key Features of Bassoon AI"
+    image: "/images/bassoon-feature-2.png"
+    content: |
+      Our AI tool is built to give you maximum flexibility and ease, allowing you to create email templates tailored to your business—without the need for coding expertise.
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "Chat with an AI agent to update and refine your templates"
+      - "Supports HTML, CSS, and Handlebars for dynamic email content"
+      - "Live preview updates instantly as you edit"
+      - "Revert changes made by the AI or user with one click"
+      - "No coding skills required—just customize and send"
     button:
       enable: true
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/hugoplate"
+      label: "Interested?"
+      link: "/contact"
 
-  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
-    image: "/images/service-3.png"
-    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
+  - title: "Why Choose Bassoon AI?"
+    image: "/images/bassoon-feature-3.png"
+    content: |
+      Bassoon AI is designed for marketers and businesses who want to save time and streamline email design. Our tool eliminates the need for specialized skills, while ensuring top-notch results across all platforms.
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "Save hours of design time with AI-generated templates"
+      - "Ensure your emails are responsive and compliant with industry standards"
+      - "Ideal for teams and individuals who need scalable, professional email solutions"
+      - "Compatible with all major email marketing platforms"
     button:
       enable: false
       label: ""
