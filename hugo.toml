@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 # The base URL of your site (required). This will be prepended to all relative URLs.
-baseURL = "https://ai-email-template-generator.netlify.app/"
+baseURL = "https://tannerbyers.github.io/marketing-site-for-ai-email-template-generator/"
 # Title of your website (required).
 title = "Basson AI"
 # Your theme name
@@ -21,7 +21,7 @@ defaultContentLanguageInSubdir = false
 ########################### Services #############################
 [services]
 [services.googleAnalytics]
-ID = 'G-MEASUREMENT_ID' # see https://gohugo.io/templates/internal/#configure-google-analytics
+ID = 'G-TSDXMCTGMY' # see https://gohugo.io/templates/internal/#configure-google-analytics
 
 [services.disqus]
 shortname = 'themefisher-template' # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
